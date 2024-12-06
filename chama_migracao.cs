@@ -3,7 +3,6 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 
-
 Console.WriteLine("Hello, GCO");                // comando teste
 new ContextoBancoDados().Database.Migrate();    // comando para aplicar migrações
 
